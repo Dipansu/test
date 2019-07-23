@@ -2,4 +2,4 @@
 "Description": "Simple S3 Bucket",
 "Resources": {
 "myS3Bucket": {"Type": "AWS::S3::Bucket",
-"Properties":{"BucketName": "groupdbda421abhibhibanegakya"}}}}
+"Properties":{"BucketName": "groupdbda421abhibhibanegakya1"}}}}
