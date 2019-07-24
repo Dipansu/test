@@ -5,5 +5,5 @@ pipeline{agent any
                    sh "aws cloudformation create-stack --stack-name ${stackname} --template-body file://s3cft.json --parameters ParameterKey=BucketName,ParameterValue=${buck_value} --region 'us-east-1'"}
            }
          }
-        }
+        
 
