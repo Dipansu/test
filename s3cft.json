@@ -3,4 +3,6 @@
 "Resources": {
 "myS3Bucket": {"Type": "AWS::S3::Bucket",
                "Properties": {
-                "BucketName": "lambabucket"}}}}
+                "BucketName": {
+                    "Ref": "LambdaSourceBucket"
+                }}}}}
