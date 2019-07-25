@@ -6,6 +6,7 @@
                "Properties": {
                 "BucketName": {
                     "Ref": "LambdaSourceBucket"
-                }}}}}
+                }}}},
   "Parameter":{
          "LambdaSourceBucket": "getbuck"}
+}
