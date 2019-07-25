@@ -8,4 +8,4 @@
                     "Ref": "LambdaSourceBucket"
                 }}}}}
   "Parameter":{
-         "LambdaSourceBucket": ${getbuck}}
+         "LambdaSourceBucket": "getbuck"}
