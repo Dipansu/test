@@ -7,7 +7,7 @@
                 "BucketName": {
                     "Ref": "LambdaSourceBucket"
                 }}}},
-  "Parameter":{
+  "Parameters":{
          "LambdaSourceBucket": {
          "Type": "String"}}
 }
